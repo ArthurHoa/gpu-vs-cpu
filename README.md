@@ -71,10 +71,20 @@ NVIDIA Tesla T4
 
 ## Deep Learning
 
+In this experiment I am training a VGG deep convolutional neural network on the dataset CIFAR-10. The goal is to see how much time my GPU and CPU spend training for 100 steps, each with a batch size of 64. 
+
+Link to the dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)  
+
+CIFAR dataset:  
+![png](CIFAR-10/CIFAR.png)  
+
+| |GPU  | CPU|
+--- | --- | ---|
+|Time spent for training|267 seconds|7900 seconds|
 
 ## Max running threads
 
-Execution speed of 1'000'000'000 instructions depending on the CUDA grid size.  
+Execution speed of 1'000'000'000 instructions depending on the number of threads in the CUDA grid.  
 For my own GPU.  
 
 ![png](time-per-thread/time1.png)
