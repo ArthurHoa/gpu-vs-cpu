@@ -62,11 +62,11 @@ NVIDIA Tesla T4
 
 ### Google performance
 
-![png](comp-google/google1.png)![png](comp-google/google2.png)
+<img src="comp-google/google1.png" width="400"/><img src="comp-google/google2.png" width="400"/>
 
 ### My own GPU performance
 
-![png](comp-google/own1.png)![png](comp-google/own2.png)
+<img src="comp-google/own1.png" width="400"/><img src="comp-google/own2.png" width="400"/>
 
 ## Deep Learning
 
