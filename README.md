@@ -54,10 +54,19 @@ Time spent to multiply matrices depending on their size:
 
 ## Benchmark with google collad GPU
 
-
+I also wanted to compare my GPU with Google collab's GPU, just for fun.
 
 ### Google GPU
 
+NVIDIA Tesla T4
+
+### Google performance
+
+![png](comp-google/google1.png)![png](comp-google/google2.png)
+
+### My own GPU performance
+
+![png](comp-google/own1.png)![png](comp-google/own2.png)
 
 ## Deep Learning
 
