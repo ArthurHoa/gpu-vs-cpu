@@ -56,9 +56,6 @@ print("Time spent for", GRID_SIZE*BLOCKSIZE, "incrementations:", GPU_time)
     Icrementation of array by 1 | size: 51200000
     Kernel launch: cudakernel0[ 50000 ,  1024 ](array)... 
 
-    /usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
-      warn(NumbaPerformanceWarning(msg))
-    
 
     Success
     Time spent for 51200000 incrementation: 0.45095276832580566
@@ -94,13 +91,9 @@ plt.legend()
 plt.show()
 ```
 
-    /usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
-      warn(NumbaPerformanceWarning(msg))
-    
-
 
     
-![png](output_5_1.png)
+![png](google1.png)
     
 
 
@@ -154,9 +147,6 @@ print("Time spent to multiply matrices, 50000*1024 with 1024*1024:", GPU_time)
     Matrix multiplication, | matrix size: (50000, 1024)
     Kernel launch: cudakernel1[ 50000 ,  1024 ](array)... 
 
-    /usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
-      warn(NumbaPerformanceWarning(msg))
-    
 
     Success
     GPU time: 1.4719223976135254
@@ -196,12 +186,7 @@ plt.legend()
 plt.show()
 ```
 
-    /usr/local/lib/python3.8/dist-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
-      warn(NumbaPerformanceWarning(msg))
-    
 
-
-    
-![png](output_9_1.png)
+![png](google_2.png)
     
 
