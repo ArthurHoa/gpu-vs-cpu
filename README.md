@@ -54,7 +54,7 @@ Time spent to multiply matrices depending on their size:
 
 ## Benchmark with google collad GPU
 
-I also wanted to compare my GPU with Google Collab's, just for fun.  
+I also wanted to compare my GPU with Google Collab, just for fun.  
 I ended up slightly outperforming the Google GPU.
 
 ### Google GPU
