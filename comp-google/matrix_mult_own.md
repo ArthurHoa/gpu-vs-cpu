@@ -56,12 +56,7 @@ print("Time spent for", GRID_SIZE*BLOCKSIZE, "incrementations:", GPU_time)
     Icrementation of array by 1 | size: 51200000
     Kernel launch: cudakernel0[ 50000 ,  1024 ](array)... Success
     Time spent for 51200000 incrementations: 0.5302755832672119
-    
-
-    C:\Users\arthu\anaconda3\envs\crypt\lib\site-packages\numba\cuda\cudadrv\devicearray.py:885: NumbaPerformanceWarning: [1mHost array used in CUDA kernel will incur copy overhead to/from device.[0m
-      warn(NumbaPerformanceWarning(msg))
-    
-
+   
 
 ```python
 #Same xp as a function of the number of operations
@@ -92,13 +87,9 @@ plt.legend()
 plt.show()
 ```
 
-    C:\Users\arthu\anaconda3\envs\crypt\lib\site-packages\numba\cuda\dispatcher.py:488: NumbaPerformanceWarning: [1mGrid size 1 will likely result in GPU under-utilization due to low occupancy.[0m
-      warn(NumbaPerformanceWarning(msg))
-    
-
 
     
-![png](output_5_1.png)
+![png](own1.png)
     
 
 
@@ -151,9 +142,6 @@ print("Time spent to multiply matrices, 50000*1024 with 1024*1024:", GPU_time)
 
     Matrix multiplication, | matrix size: (50000, 1024)
     Kernel launch: cudakernel1[ 50000 ,  1024 ](array)... 
-
-    C:\Users\arthu\anaconda3\envs\crypt\lib\site-packages\numba\cuda\cudadrv\devicearray.py:885: NumbaPerformanceWarning: [1mHost array used in CUDA kernel will incur copy overhead to/from device.[0m
-      warn(NumbaPerformanceWarning(msg))
     
 
     Success
@@ -200,6 +188,6 @@ plt.show()
 
 
     
-![png](output_9_1.png)
+![png](own2.png)
     
 
