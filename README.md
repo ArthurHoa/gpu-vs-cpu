@@ -13,7 +13,17 @@ AMD Ryzen 5 5600H 3.30 Ghz
 
 ### GPU
 
-NVIDIA GeForce RTX 3060 Laptop 3840 noyaux CUDA
+NVIDIA GeForce RTX 3060 Laptop
+
+## CPU vs GPU : Incrementation
+
+## CPU vs GPU : Matrix multiplication
+
+## CPU vs GPU : Numpy arrays
 
 
 
+## Deep Learning
+
+
+## Max running threads
