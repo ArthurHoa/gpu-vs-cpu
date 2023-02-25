@@ -54,7 +54,8 @@ Time spent to multiply matrices depending on their size:
 
 ## Benchmark with google collad GPU
 
-I also wanted to compare my GPU with Google collab's GPU, just for fun.
+I also wanted to compare my GPU with Google Collab's, just for fun.  
+I ended up slightly outperforming the Google GPU.
 
 ### Google GPU
 
@@ -72,3 +73,8 @@ NVIDIA Tesla T4
 
 
 ## Max running threads
+
+Execution speed of 1'000'000'000 instructions depending on the CUDA grid size.  
+For my own GPU.  
+
+![png](time-per-thread/time1.png)
