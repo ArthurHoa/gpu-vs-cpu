@@ -46,7 +46,7 @@ Time spent to multiply matrices depending on their size:
 
 What I realized is that for the same Python implementation, my GPU outperforms my CPU. However, the Python Numpy package implements much faster matrix multiplication using a lower level of code, like C. Therefore, a parallelized multiplication of my code in Python, is not necessarily faster than a matrix multiplication on the CPU with numpy methods.
 
-Multiplication of two matrices 10000x1024 and 1024x1024:  
+Multiplication of two matrices 70x1024 and 1024x1024:  
 ![png](matrix-mult/numpy1.png)
 
 Time spent to multiply matrices depending on their size:  
