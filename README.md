@@ -84,7 +84,6 @@ CIFAR dataset:
 
 ## Max running threads
 
-Execution speed of 1'000'000'000 instructions depending on the number of threads in the CUDA grid.  
-For my own GPU.  
+Execution speed of 1'000'000'000 instructions depending on the number of threads in the CUDA grid for my own GPU.  
 
 ![png](time-per-thread/time1.png)
